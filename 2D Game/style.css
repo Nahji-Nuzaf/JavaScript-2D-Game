@@ -1,0 +1,56 @@
+.b{
+    height: 100vh;
+    width: 100%;
+    background-image: url("background.png");
+    background-size: contain;
+    position: absolute;
+    background-repeat: repeat-x;
+}
+
+.body{
+    margin: 0px;
+}
+
+.f{
+    margin-top: 450px;
+    height: 160px;
+    position: absolute;
+}
+.boy{
+    height: 160px;
+    margin-top: 420px;
+}
+.score{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 100px;
+    position: absolute;
+}
+.end{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    font-family: "Arial";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.7;
+    visibility: hidden;
+}
+.btn{
+    width: 500px;
+    height: 60px;
+    background-color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Arial";
+    border-radius: 30px;
+    cursor: pointer;
+}
